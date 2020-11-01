@@ -1,0 +1,34 @@
+{
+  "name": "model-wp",
+  "version": "1.0.0",
+  "description": "Modelo para desenvolvimento.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andraderafa72/model-wp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andraderafa72/model-wp/issues"
+  },
+  "homepage": "https://github.com/andraderafa72/model-wp#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "css-loader": "^5.0.0",
+    "regenerator-runtime": "^0.13.7",
+    "style-loader": "^2.0.0"
+  }
+}
